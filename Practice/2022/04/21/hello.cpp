@@ -22,7 +22,7 @@
 int main()
 {
     std::cout << "step1" << std::endl;
-    cv::Mat image = cv::imread("C:/Users/Administrator/Desktop/Make_OpenCV_error_aviriff.png", 1);
+    cv::Mat image = cv::imread("C:/Users/Administrator/Desktop/algorithm-platform.png", -1);
     std::cout << "step2" << std::endl;
 
     if (image.data == nullptr)
@@ -32,13 +32,14 @@ int main()
     }
     std::cout << "step3" << std::endl;
 
-    cv::namedWindow("Display the first OpenCV Image", 1);
+    cv::namedWindow("Display the first OpenCV Image", cv::WINDOW_AUTOSIZE);
     std::cout << "step4" << std::endl;
     cv::imshow("Display Image:", image);
     std::cout << "step5" << std::endl;
     
     cv::waitKey(0);
     std::cout << "step6" << std::endl;
+    // cv::destroyWindow("Display the first OpenCV Image");
 
     return 0;
 }
