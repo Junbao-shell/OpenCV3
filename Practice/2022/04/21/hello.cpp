@@ -22,7 +22,7 @@
 int main()
 {
     std::cout << "step1" << std::endl;
-    cv::Mat image = cv::imread("C:/Users/Administrator/Desktop/algorithm-platform.png", -1);
+    cv::Mat image = cv::imread("D:/Pictures/Saved Pictures/Germany-Geroldsee.jpg", -1);
     std::cout << "step2" << std::endl;
 
     if (image.data == nullptr)

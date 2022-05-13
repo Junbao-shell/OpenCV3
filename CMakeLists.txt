@@ -10,7 +10,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/build/)
 set(LIBRARY_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin/)
 
-set(OpenCV_DIR "D:/Work/lib/opencv/opencv/sources/build")
+set(OpenCV_DIR "D:/Work/OpenSource/opencv/install/")
 find_package(OpenCV REQUIRED)
 if (OpenCV_FOUND)
     message(STATUS "find opencv package")

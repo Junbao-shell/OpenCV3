@@ -1,7 +1,7 @@
 # Practice/2022/04/CMakeLists.txt
 
-include_directories(${OpenCV_DIR}/install/include)
-link_directories(${OpenCV_DIR}/build/bin/)
+include_directories(${OpenCV_DIR}/include)
+link_directories(${OpenCV_DIR}/bin/)
 
 set(SRC_LIST_21
     21/hello.cpp)
